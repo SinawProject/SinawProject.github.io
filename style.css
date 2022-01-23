@@ -709,6 +709,7 @@ details[open] > summary::after {
     line-height: 19px;
     color: #F5443B;
     z-index: 25;
+    text-align: center;
 }
 
 
