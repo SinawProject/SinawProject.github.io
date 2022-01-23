@@ -1,0 +1,1132 @@
+@media (min-width: 1201px) and (max-width: 2560px){
+    /* .second_header_nav_block {
+        right: 26%;
+    } */
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+    .second_header_nav_block {
+        display: flex;
+        align-items: center;
+        right: 16px;
+    }
+
+    .nav_header{
+        display: flex;
+    }
+
+    .header_student_photo{
+        left: -260px;
+    }
+
+    .bg_elips_first, .bg_elips_second {
+        width: 80px;
+        height: 80px;
+    }
+
+    .bg_elips_second {
+        right: -472px;
+    }
+    
+    .first_block_review {
+       left: 66px;
+    }
+
+    .webinar_slide:first-child > iframe{
+        width: 270px;
+    }
+    
+    .webinar_slide:nth-child(3) > iframe{
+        width: 270px;
+    }
+
+    .card_second_txt {
+        font-size: 13px;
+    }
+
+    .card_main_txt {
+        font-size: 16px;
+    }
+
+    .cards_block{
+        column-gap: 16px;
+    }
+
+    .button_show_more {
+        margin: 0 auto 80px auto;
+    }
+
+    .course_prise_txt {
+        margin: 120px 0 20px 0;
+    }
+
+    .price_card{
+        min-width: 315px;
+    }
+
+    .price_card_block{
+        column-gap: 16px;
+    }
+
+    .download_block {
+        padding: 0 60px;
+    }
+
+    footer{
+        column-gap: 100px;
+    }
+
+    .second_footer_block {
+        column-gap: 40px;
+    }
+}
+
+@media (min-width: 895px) and (max-width: 1023px){
+    .second_header_nav_block {
+        display: flex;
+        align-items: center;
+        right: 16px;
+    }
+
+    .nav_header{
+        display: flex;
+    }
+
+    .first_header_block {
+        display: none;
+    }
+
+    .second_header_block {
+        max-width: 100%;
+    }
+
+    .wrapper_body {
+        margin-top: 80px;
+    }
+
+    header {
+        column-gap: 15%;
+    }
+
+    .webinar_slide:first-child > iframe{
+        display: none;
+    }
+    
+    .webinar_slide:nth-child(3) > iframe{
+        width: 270px;
+    }
+
+    .card_second_txt {
+        font-size: 13px;
+    }
+
+    .card_main_txt {
+        font-size: 16px;
+    }
+
+    .cards_block{
+        column-gap: 16px;
+    }
+
+    .media_895px{
+        display: flex;
+    }
+
+    .button_show_more {
+        margin: 0 auto 80px auto;
+    }
+
+    .course_prise_txt {
+        margin: 120px 0 20px 0;
+    }
+
+    .price_card{
+        min-width: 315px;
+    }
+
+    .price_card_block {
+        margin-top: 84px;
+        column-gap: 16px;
+        row-gap: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap-reverse;
+        flex-grow: 1;
+    }
+
+    .price_card_block > .price_card:nth-child(2){
+        order: -1;
+    }
+
+    .download_block {
+        padding: 0 10px;
+    }
+
+    .download_bg_people:nth-of-type(3) {
+        position: absolute;
+        right: 3px;
+        bottom: 39%;
+    }
+
+    footer{
+        column-gap: 100px;
+    }
+
+    .second_footer_block {
+        column-gap: 40px;
+    }
+}
+@media (min-width: 768px) and (max-width: 894px){
+
+    .burger_btn{
+        display: flex;
+    }
+
+    .nav_header, .second_header_nav_block{
+        display: none;
+    }
+
+    .flex_suggestions {
+        justify-content: flex-start;
+        column-gap: 24px;
+    }
+
+    .first_header_block {
+        display: none;
+    }
+
+    .second_header_block {
+        max-width: 100%;
+    }
+
+    .wrapper_body {
+        margin-top: 80px;
+    }
+
+    header {
+        justify-content: space-between;
+        column-gap: 0;
+    }
+
+    .under_block {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        width: 222px;
+    }
+
+    .uneder_block_txt > p:nth-child(1),.uneder_block_txt > p:nth-child(2){
+        text-align: center;
+    }
+
+    .webinar_slide:first-child > iframe{
+        display: none;
+    }
+    
+    .webinar_slide:nth-child(3) > iframe{
+        width: 270px;
+    }
+
+    .card_second_txt {
+        font-size: 13px;
+    }
+
+    .card_main_txt {
+        font-size: 16px;
+    }
+
+    .cards_block{
+        column-gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 56px;
+    }
+
+    .button_show_more {
+        margin: 500px auto 80px auto;
+    }
+
+    .course_prise_txt {
+        margin: 120px 0 20px 0;
+    }
+
+    .price_card{
+        max-width: 315px;
+    }
+
+    .price_card_block {
+        margin-top: 84px;
+        column-gap: 16px;
+        row-gap: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap-reverse;
+        flex-grow: 1;
+    }
+
+    .price_card_block > .price_card:nth-child(2){
+        order: -1;
+    }
+
+    .download_block {
+        border-radius: 40px;
+        padding: 0 108px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: inherit;
+        padding: 0 10px;
+    }
+
+    .first_download_block > h5, .first_download_block > p{
+        text-align: center;
+    }
+
+    .download_card_third_info {
+        bottom: 36px;
+    }
+
+    .download_flex_svg {
+        justify-content: center;
+    }
+
+    .download_bg_people:nth-of-type(3) {
+        position: absolute;
+        right: -71px;
+        bottom: 38%;
+    }
+
+    footer{
+        column-gap: 100px;
+    }
+
+    .second_footer_block {
+        column-gap: 40px;
+    }
+}
+@media (min-width: 595px) and (max-width: 767px){
+
+    .burger_btn{
+        display: flex;
+    }
+    
+    .nav_header, .second_header_nav_block{
+        display: none;
+    }
+
+    .flex_suggestions {
+        justify-content: flex-start;
+        column-gap: 24px;
+    }
+
+    .first_header_block {
+        display: none;
+    }
+
+    .second_header_block {
+        max-width: 100%;
+    }
+
+    .wrapper_body {
+        margin-top: 80px;
+    }
+
+    header {
+        justify-content: space-between;
+        column-gap: 0;
+    }
+
+    .under_block {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        width: 222px;
+    }
+
+    .uneder_block_txt > p:nth-child(1),.uneder_block_txt > p:nth-child(2){
+        text-align: center;
+    }
+
+    .webinar_slide:first-child > iframe{
+        display: none;
+    }
+    
+    .webinar_slide:nth-child(3) > iframe{
+        display: none;
+    }
+
+    .card{
+        width: 272px;
+    }
+
+    .card_second_txt {
+        font-size: 13px;
+    }
+
+    .card_main_txt {
+        font-size: 16px;
+    }
+
+    .cards_block{
+        column-gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 56px;
+    }
+
+    .button_show_more {
+        margin: 500px auto 80px auto;
+    }
+
+    .course_prise_txt {
+        margin: 120px 0 20px 0;
+    }
+
+    .price_card{
+        max-width: 272px;
+        height: 510px;
+    }
+
+    .price_card_block {
+        margin-top: 84px;
+        column-gap: 16px;
+        row-gap: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap-reverse;
+        flex-grow: 1;
+    }
+
+    .first_price_info > svg{
+        width: 80px;
+        height: inherit;
+    }
+
+    .price_card > p {
+        font-size: 12px;
+    }
+
+    .price_card_block > .price_card:nth-child(2){
+        order: -1;
+    }
+
+    .price_card_block > .price_card:nth-child(1) > .buy_course_card_btn {
+        font-size: 13px;
+    }
+
+    .download_block {
+        border-radius: 40px;
+        padding: 0 108px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: inherit;
+        padding: 0 10px;
+    }
+
+    .first_download_block > h5, .first_download_block > p{
+        text-align: center;
+    }
+
+    .download_flex_svg {
+        justify-content: center;
+    }
+
+    .download_card_third_info {
+        bottom: 36px;
+    }
+
+    .download_bg_people:nth-of-type(3) {
+        position: absolute;
+        right: -71px;
+        bottom: 38%;
+    }
+
+    footer{
+        column-gap: 100px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .second_footer_block {
+        column-gap: 40px;
+    }
+}
+@media (min-width: 425px) and (max-width: 594px){
+    .burger_btn{
+        display: flex;
+    }
+
+    .nav_header, .second_header_nav_block{
+        display: none;
+    }
+
+    .flex_suggestions {
+        justify-content: flex-start;
+        column-gap: 24px;
+    }
+
+    .second_header_block > h1 {
+       font-size: 40px;
+    }
+
+    .first_header_block {
+        display: none;
+    }
+
+    .second_header_block {
+        max-width: 100%;
+    }
+
+    .wrapper_body {
+        margin-top: 40px;
+    }
+
+    header {
+        justify-content: space-between;
+        column-gap: 0;
+    }
+
+    .under_block {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .under_header_block {
+        margin-top: 140px;
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
+
+    .uneder_block_txt > p:nth-child(1),.uneder_block_txt > p:nth-child(2){
+        text-align: center;
+    }
+
+    .webinar_slide:first-child > iframe{
+        display: none;
+    }
+    
+    .webinar_slide:nth-child(3) > iframe{
+        display: none;
+    }
+
+    .card{
+        width: 188px;
+    }
+
+    .card:first-child{
+        order: 1;
+    }
+
+    .price_card_block > .price_card:last-child {
+        order: -2;
+    }
+
+    .webinar_bg_wave{
+        display: none;
+    }
+
+    .webinar_slide > iframe {
+        width: 350px;
+        height: 250px;
+    }
+
+    .card_second_txt {
+        font-size: 12px;
+    }
+
+    .card_main_txt {
+        font-size: 16px;
+    }
+
+    .cards_block{
+        column-gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        row-gap: 56px;
+    }
+
+    .button_show_more {
+        margin: 550px auto 80px auto;
+        z-index: 15;
+    }
+
+    .course_prise_txt {
+        margin: 120px 0 20px 0;
+    }
+
+    .price_card{
+        max-width: 272px;
+        height: 510px;
+    }
+
+    .price_card_block {
+        margin-top: 84px;
+        column-gap: 16px;
+        row-gap: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap-reverse;
+        flex-grow: 1;
+    }
+
+    .first_download_block > h5 {
+        font-size: 38px;
+    }
+
+    .br_download_block_425px{
+        display: flex;
+    }
+
+    .download_bg_people:nth-of-type(2) {
+        display: none;
+    }
+
+    .download_card_third_info {
+        left: -26px;
+    }
+
+    .first_price_info > svg{
+        width: 80px;
+        height: inherit;
+    }
+
+    .price_card > p {
+        font-size: 12px;
+    }
+
+    .price_card_block > .price_card:nth-child(2){
+        order: -1;
+    }
+
+    .price_card_block > .price_card:nth-child(1) > .buy_course_card_btn {
+        font-size: 13px;
+    }
+
+    .download_block {
+        border-radius: 40px;
+        padding: 0 108px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: inherit;
+        padding: 0 10px;
+    }
+
+    .first_download_block > h5, .first_download_block > p{
+        text-align: center;
+    }
+
+    .download_flex_svg {
+        justify-content: center;
+    }
+
+    .download_bg_people:nth-of-type(3) {
+        position: absolute;
+        right: 150px;
+        bottom: 29%;
+    }
+
+    .download_card_third_info {
+        bottom: 36px;
+    }
+
+    footer{
+        column-gap: 100px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .second_footer_block {
+        column-gap: 40px;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+
+    .second_footer_block > ul:nth-child(1),
+    .second_footer_block > ul:nth-child(2)
+    {
+        margin-left: 50px;
+    }
+}
+@media(min-width: 375px) and (max-width: 424px){
+
+    .header_inputs > input:first-child {
+        padding: 22px 32px 22px 12px;
+    }
+
+    .burger_btn{
+        display: flex;
+    }
+
+    .nav_header, .second_header_nav_block{
+        display: none;
+    }
+
+    .flex_suggestions {
+        justify-content: flex-start;
+        column-gap: 24px;
+    }
+
+    .second_header_block > h1 {
+       font-size: 40px;
+    }
+
+    .first_header_block {
+        display: none;
+    }
+
+    .second_header_block {
+        max-width: 100%;
+    }
+
+    .wrapper_body {
+        margin-top: 40px;
+    }
+
+    header {
+        justify-content: space-between;
+        column-gap: 0;
+    }
+
+    .under_block {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .under_header_block {
+        margin-top: 140px;
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
+
+    .uneder_block_txt > p:nth-child(1),.uneder_block_txt > p:nth-child(2){
+        text-align: center;
+    }
+
+    .webinar_slide:first-child > iframe{
+        display: none;
+    }
+    
+    .webinar_slide:nth-child(3) > iframe{
+        display: none;
+    }
+
+    .price_card_block > .price_card:last-child {
+        order: -2;
+    }
+
+    .webinar_bg_wave{
+        display: none;
+    }
+
+    .webinar_slide > iframe {
+        width: 350px;
+        height: 250px;
+    }
+
+    .card_second_txt {
+        font-size: 12px;
+    }
+
+    .card_main_txt {
+        font-size: 16px;
+    }
+
+    .cards_block{
+        column-gap: 16px;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: flex-end;
+        row-gap: 56px;
+        margin-bottom: 200px;
+    }
+
+    .webinar_block > p {
+        margin: 20px 0 60px 0;
+        font-size: 16px;
+    }
+
+    .webinar_block > h3 {
+        font-size: 34px;
+    }
+
+    .button_show_more {
+        margin: 1474px auto 80px auto;
+        z-index: 15;
+    }
+
+    .course_prise_txt {
+        margin: 120px 0 20px 0;
+    }
+
+    .price_card{
+        max-width: 272px;
+        height: 510px;
+    }
+
+    .price_card_block {
+        margin-top: 84px;
+        column-gap: 16px;
+        row-gap: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap-reverse;
+        flex-grow: 1;
+    }
+
+    .first_download_block > h5 {
+        font-size: 32px;
+    }
+
+    .br_download_block_425px{
+        display: flex;
+    }
+
+    .download_bg_people:nth-of-type(2) {
+        display: none;
+    }
+
+    .first_price_info > svg{
+        width: 80px;
+        height: inherit;
+    }
+
+    .price_card > p {
+        font-size: 12px;
+    }
+
+    .price_card_block > .price_card:nth-child(2){
+        order: -1;
+    }
+
+    .price_card_block > .price_card:nth-child(1) > .buy_course_card_btn {
+        font-size: 13px;
+    }
+
+    .download_block {
+        border-radius: 40px;
+        padding: 0 108px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: inherit;
+        padding: 0 10px;
+    }
+
+    .first_download_block > h5, .first_download_block > p{
+        text-align: center;
+    }
+
+    .first_download_block > p{
+        font-size: 16px;
+    }
+
+    .download_flex_svg {
+        justify-content: center;
+    }
+
+    .download_bg_people:nth-of-type(3) {
+        position: absolute;
+        right: 150px;
+        bottom: 29%;
+    }
+
+    .download_bg_people:first-child {
+        display: none;
+    }
+
+    .download_card_third_info {
+        bottom: 36px;
+        left: -3px;
+    }
+
+    .first_course_progress > img, .first_course_progress > a {
+        transform: translateY(-56px);
+    }
+
+    .first_course_progress, .second_course_progress {
+        width: 137px;
+        height: 70px;
+    }
+
+    footer{
+        column-gap: 100px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .second_footer_block {
+        column-gap: 40px;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+
+    .second_header_block > p {
+        margin: 24px 0 24px 0;
+    }
+
+    .header_inputs > input:first-child {
+        padding: 22px 32px 22px 12px;
+        font-size: 12px;
+    }
+
+    .under_header_bg_wave {
+        top: -132px;
+    }
+
+    .burger_btn{
+        display: flex;
+    }
+
+    .nav_header, .second_header_nav_block{
+        display: none;
+    }
+
+    .flex_suggestions {
+        justify-content: flex-start;
+        column-gap: 24px;
+    }
+
+    .second_header_block > h1 {
+       font-size: 35px;
+    }
+
+    .first_header_block {
+        display: none;
+    }
+
+    .second_header_block {
+        max-width: 100%;
+    }
+
+    .wrapper_body {
+        margin-top: 40px;
+    }
+
+    header {
+        justify-content: space-between;
+        column-gap: 0;
+    }
+
+    .under_block {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .under_header_block {
+        margin-top: 140px;
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
+
+    .what_do_you_want_to_learn_block {
+        margin-top: 80px;
+    }
+
+    .uneder_block_txt > p:nth-child(1),.uneder_block_txt > p:nth-child(2){
+        text-align: center;
+    }
+
+    .webinar_slide:first-child > iframe{
+        display: none;
+    }
+
+    .what_do_you_want_to_learn_block > h2 {
+        font-size: 32px;
+    }
+    
+    .what_do_you_want_to_learn_block > p {
+        margin: 20px 0 50px 0;
+        font-size: 16px;
+    }
+
+    .webinar_slide:nth-child(3) > iframe{
+        display: none;
+    }
+
+    .price_card_block > .price_card:last-child {
+        order: -2;
+    }
+
+    .webinar_bg_wave{
+        display: none;
+    }
+
+    .webinar_slide > iframe {
+        width: 280px;
+        height: 200px;
+    }
+
+    .card_second_txt {
+        font-size: 12px;
+    }
+
+    .card_main_txt {
+        font-size: 16px;
+    }
+
+    .cards_block{
+        column-gap: 16px;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: flex-end;
+        row-gap: 56px;
+        margin-bottom: 200px;
+    }
+
+    .webinar_block > p {
+        margin: 20px 0 60px 0;
+        font-size: 14px;
+    }
+
+    .webinar_block > h3 {
+        font-size: 30px;
+    }
+
+    .button_show_more {
+        margin: 1442px auto 60px auto;
+        z-index: 15;
+    }
+
+    .course_prise_txt {
+        margin: 60px 0 20px 0;
+    }
+
+    .price_card{
+        max-width: 272px;
+        height: 510px;
+    }
+
+    .price_card_block {
+        margin-top: 60px;
+        column-gap: 16px;
+        row-gap: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap-reverse;
+        flex-grow: 1;
+    }
+
+    .first_download_block > h5 {
+        margin-top: 12px;
+        font-size: 28px;
+    }
+
+    .br_download_block_425px{
+        display: flex;
+    }
+
+    .download_bg_people:nth-of-type(2) {
+        display: none;
+    }
+
+    .first_price_info > svg{
+        width: 80px;
+        height: inherit;
+    }
+
+    .price_card > p {
+        font-size: 12px;
+    }
+
+    .price_card_block > .price_card:nth-child(2){
+        order: -1;
+    }
+
+    .price_card_block > .price_card:nth-child(1) > .buy_course_card_btn {
+        font-size: 13px;
+    }
+
+    .download_block {
+        margin-top: 100px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: inherit;
+        padding: 0 10px;
+    }
+
+    .first_download_block > h5, .first_download_block > p{
+        text-align: center;
+    }
+
+    .first_download_block > p{
+        font-size: 14px;
+    }
+
+    .download_flex_svg {
+        justify-content: center;
+    }
+
+    .download_bg_people:nth-of-type(3) {
+        position: absolute;
+        right: 150px;
+        bottom: 29%;
+    }
+
+    .download_bg_people:first-child {
+        display: none;
+    }
+
+    .download_card_third_info {
+        bottom: 36px;
+        left: -3px;
+    }
+
+    .first_course_progress > img, .first_course_progress > a {
+        transform: translateY(-56px);
+    }
+
+    .first_course_progress, .second_course_progress {
+        width: 137px;
+        height: 70px;
+    }
+
+    .download_flex_svg{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        column-gap: 100px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .second_footer_block {
+        column-gap: 40px;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+}
