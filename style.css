@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Libre+Franklin:wght@200;300;400;500;600;700;800&display=swap');
 
-/*SWIPER*/
-
-
-
-
-
-
-
-/*     */
-
 /* burger */
 
 .burger_btn{
@@ -194,6 +184,7 @@ header{
     display: flex;
     align-items: center;
     column-gap: 200px;
+    position: relative;
 }
 
 .second_header_nav_block{
